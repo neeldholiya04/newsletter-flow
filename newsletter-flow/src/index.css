@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Global Button Styling */
+.yes-btn {
+  background-color: #34d399; /* Green for Yes */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.yes-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(52, 211, 153, 0.5);
+}
+
+.no-btn {
+  background-color: #f87171; /* Red for No */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.no-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(248, 113, 113, 0.5);
+}
+
+.restart-btn {
+  background-color: #60a5fa; /* Blue for Restart */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.restart-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(96, 165, 250, 0.5);
+}
